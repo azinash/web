@@ -62,6 +62,16 @@
     font-weight: 800;
     font-style: italic;
 }
+@font-face {
+    font-family: 'Big Caslon';
+    src: url('../fonts/bc-regular-400.woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Big Caslon';
+    src: url('../fonts/bc-bold-700.woff');
+    font-weight: 700;
+}
 @import url("https://fonts.googleapis.com/css?family=Public%20Sans:400,500");
 /*
 	Eventually by HTML5 UP
@@ -347,7 +357,7 @@ body.is-preload #bg {
 /* Type */
 body, input, select, textarea {
   color: rgba(255, 255, 255, 0.75);
-  font-family: "Roboto", sans-serif;
+  font-family: "Big Caslon", sans-serif;
   font-size: 16pt;
   font-weight: 400;
   letter-spacing: -0.01em;
