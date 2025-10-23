@@ -1,4 +1,3 @@
-@import 'fontawesome.min.css';
 /* Social / Icon Font  */
 @font-face {
     font-family: 'Social';
@@ -92,7 +91,16 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-
+* {
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -o-transition:all 1s ease;
+  transition:all 1s ease;
+  ::selection {
+    background-color: #ff5300;
+    color: #fff;
+  }
+}
 body {
   line-height: 1;
 }
@@ -554,7 +562,7 @@ header h6 + p {
   border-bottom: none;
   position: relative;
   font-family: "Social";
-  font-size: 1.25em;
+  font-size: 2em;
 }
 .icon > .label {
   display: none;
