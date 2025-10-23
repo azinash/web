@@ -1,3 +1,68 @@
+/* Social / Icon Font  */
+@font-face {
+    font-family: 'Social';
+    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+    unicode-range: U+E000-E12E;
+}
+@font-face {
+	font-family: 'Social';
+    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+	font-weight: 200;
+	unicode-range: U+E000-E12E;
+}
+@font-face {
+	font-family: 'Social';
+    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+	unicode-range: U+E000-E12E;
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'Social';
+    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+	unicode-range: U+E000-E12E;
+	font-weight: 600;
+}
+@font-face {
+	font-family: 'Social';
+    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+	unicode-range: U+E000-E12E;
+	font-weight: 800;
+}
+@font-face {
+	font-family: 'Social';
+    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+	unicode-range: U+E000-E12E;
+	font-style: italic;
+}
+@font-face {
+    font-family: 'Social';
+    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+    unicode-range: U+E000-E12E;
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Social';
+    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+    unicode-range: U+E000-E12E;
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Social';
+    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+    unicode-range: U+E000-E12E;
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Social';
+    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+    unicode-range: U+E000-E12E;
+    font-weight: 800;
+    font-style: italic;
+}
+
 @import 'fontawesome-all.min.css';
 @import url("https://fonts.googleapis.com/css?family=Public%20Sans:400,500");
 /*
