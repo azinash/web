@@ -1018,10 +1018,13 @@ button:disabled,
 #header h1 {
   font-size: 8em;
   margin: 0 0 0 0;
+  line-height: 0.9;
+  padding-bottom:0.5em;
 }
 #header h2 {
   font-size: 5em;
   margin: 0 0 0 0;
+  line-height: 1;
 }
 #header p {
   font-size: 1.35em;
@@ -1107,6 +1110,7 @@ button:disabled,
 #footer h3 {
   font-size: 4em;
   margin: 0 0 0 0;
+  line-height:0.9;
 }
 #footer .icons {
   margin: 0 0 0.5em 0;
