@@ -1,64 +1,64 @@
-@import 'fontawesome-all.min.css';
+@import 'fontawesome.min.css';
 /* Social / Icon Font  */
 @font-face {
     font-family: 'Social';
-    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+    src: url('../fonts/SSSocial-Regular-1.9.woff?content');
     unicode-range: U+E000-E12E;
 }
 @font-face {
 	font-family: 'Social';
-    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+    src: url('../fonts/SSSocial-Regular-1.9.woff?content');
 	font-weight: 200;
 	unicode-range: U+E000-E12E;
 }
 @font-face {
 	font-family: 'Social';
-    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+    src: url('../fonts/SSSocial-Regular-1.9.woff?content');
 	unicode-range: U+E000-E12E;
 	font-weight: 400;
 }
 @font-face {
 	font-family: 'Social';
-    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+    src: url('../fonts/SSSocial-Regular-1.9.woff?content');
 	unicode-range: U+E000-E12E;
 	font-weight: 600;
 }
 @font-face {
 	font-family: 'Social';
-    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+    src: url('../fonts/SSSocial-Regular-1.9.woff?content');
 	unicode-range: U+E000-E12E;
 	font-weight: 800;
 }
 @font-face {
 	font-family: 'Social';
-    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+    src: url('../fonts/SSSocial-Regular-1.9.woff?content');
 	unicode-range: U+E000-E12E;
 	font-style: italic;
 }
 @font-face {
     font-family: 'Social';
-    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+    src: url('../fonts/SSSocial-Regular-1.9.woff?content');
     unicode-range: U+E000-E12E;
     font-weight: 200;
     font-style: italic;
 }
 @font-face {
     font-family: 'Social';
-    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+    src: url('../fonts/SSSocial-Regular-1.9.woff?content');
     unicode-range: U+E000-E12E;
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
     font-family: 'Social';
-    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+    src: url('../fonts/SSSocial-Regular-1.9.woff?content');
     unicode-range: U+E000-E12E;
     font-weight: 600;
     font-style: italic;
 }
 @font-face {
     font-family: 'Social';
-    src: url('assets/fonts/SSSocial-Regular-1.9.woff?content');
+    src: url('../fonts/SSSocial-Regular-1.9.woff?content');
     unicode-range: U+E000-E12E;
     font-weight: 800;
     font-style: italic;
@@ -547,12 +547,14 @@ header h6 + p {
   text-rendering: auto;
   line-height: 1;
   text-transform: none !important;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Social";
   font-weight: 400;
 }
 .icon {
   border-bottom: none;
   position: relative;
+  font-family: "Social";
+  font-size: 1.25em;
 }
 .icon > .label {
   display: none;
@@ -564,7 +566,7 @@ header h6 + p {
   font-weight: 900;
 }
 .icon.brands:before {
-  font-family: "Font Awesome 5 Brands";
+  font-family: "Social";
 }
 
 /* List */
@@ -600,7 +602,7 @@ ul.icons li:last-child {
   padding-right: 0;
 }
 ul.icons li .icon:before {
-  font-size: 1.25em;
+  font-size: 3em;
 }
 ul.icons li a {
   color: inherit;
@@ -622,7 +624,7 @@ form .message:before {
   text-rendering: auto;
   line-height: 1;
   text-transform: none !important;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 7 Free";
   font-weight: 900;
 }
 form .message {
@@ -855,7 +857,7 @@ input[type=radio] + label:before {
   text-rendering: auto;
   line-height: 1;
   text-transform: none !important;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 7 Free";
   font-weight: 900;
 }
 input[type=checkbox] + label,
