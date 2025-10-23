@@ -407,7 +407,7 @@ a {
 }
 a:hover {
   border-bottom-color: transparent;
-  color: #1cb495 !important;
+  color: #ffffff !important;
   text-decoration: none;
 }
 
@@ -1050,10 +1050,19 @@ button:disabled,
   #header p {
     font-size: 1em;
   }
+ .icon {
+    line-height: 1;
+    opacity: 1;
+  }
 }
 @media screen and (max-width: 480px) {
   #header {
     margin: 0 0 1em 0;
+  }
+  .icon {
+    font-size: 2em;
+    margin-top:4em;
+    padding-bottom: 2em;
   }
 }
 
@@ -1068,10 +1077,11 @@ button:disabled,
     font-size: 1em;
   }
   .icon {
-    font-size: 1.5em;
     margin-top:4em;
+    padding-bottom: 2em;
   }
 }
+
 
 /* Signup Form */
 #signup-form {
@@ -1124,7 +1134,7 @@ button:disabled,
   -webkit-transition: opacity 0.5s ease-in-out;
   -ms-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
-  bottom: 3em;
+  bottom: 0em;
   color: rgba(255, 255, 255, 0.5);
   left: 0em;
   opacity: 0.5;
@@ -1166,14 +1176,16 @@ button:disabled,
 }
 @media screen and (max-width: 1680px) {
   #footer {
-    bottom: 3.5em;
+    bottom: 0em;
     left: 0em;
   }
 }
 @media screen and (max-width: 736px) {
   #footer {
-    bottom: 2em;
+    bottom: 0em;
     left: 0em;
+      display: flex;
+  flex-flow: column;
   }
   #footer h3 {
     font-size: 2em;
@@ -1187,6 +1199,7 @@ button:disabled,
 }
 @media screen and (max-height: 640px) {
   #footer {
+    height: 100%;
     bottom: auto;
     left: auto;
     margin: 1em 0 0 0;
@@ -1200,5 +1213,10 @@ button:disabled,
   }
   #header h2 {
     font-size: 2em;
+  }
+
+  #header {
+    height:100%;
+    position: static;
   }
 }
