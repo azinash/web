@@ -1,3 +1,4 @@
+@import 'fontawesome-all.min.css';
 /* Social / Icon Font  */
 @font-face {
     font-family: 'Social';
@@ -62,8 +63,6 @@
     font-weight: 800;
     font-style: italic;
 }
-
-@import 'fontawesome-all.min.css';
 @import url("https://fonts.googleapis.com/css?family=Public%20Sans:400,500");
 /*
 	Eventually by HTML5 UP
